@@ -14,7 +14,7 @@ created the intial baseline database for file integraty monitoring
   2. Moved the newly generated database to the default AIDE database location:
     -sudo cp /var/lib/aide/aide/aide.db.new  /var/lib/aide/aide.db
   3. Test the baseline check :
-     -sudo aide --config --check
+     -sudo aide --config /etc/aide/aide.conf --check
 
  
  during that check :
