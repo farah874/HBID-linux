@@ -28,10 +28,16 @@ to check any tempering or changes  has been done to the file-system
 ## Day 3 - auditd Monitoring
 
 Configuring auditd to Monitoring
--sudo usage
--User and group modifications
--Command execution
--audit configuration changes
+
+
+1.sudo usage
+
+2.User and group modifications
+
+3.Command execution
+
+
+4.audit configuration changes
 
 Test events successfully generated and logged . Evidence stored in logs
 
