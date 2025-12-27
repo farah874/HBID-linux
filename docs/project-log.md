@@ -24,4 +24,15 @@ created the intial baseline database for file integraty monitoring
 
 the main purpose of the previous steps was is to compare current system to the baseline , and 
 to check any tempering or changes  has been done to the file-system
+
+## Day 3 - auditd Monitoring
+
+Configuring auditd to Monitoring
+-sudo usage
+-User and group modifications
+-Command execution
+-audit configuration changes
+
+Test events successfully generated and logged . Evidence stored in logs
+
  
