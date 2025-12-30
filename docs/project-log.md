@@ -42,3 +42,11 @@ Configuring auditd to Monitoring
 Test events successfully generated and logged . Evidence stored in logs
 
  
+## Day 4 – Fail2Ban
+
+Configured SSH jail to detect repeated authentication failures.
+Fail2Ban successfully initialized and monitoring auth.log.
+Automatic IP-based blocking enabled.
+
+Evidence:
+logs/fail2ban_day4.log
