@@ -48,5 +48,23 @@ Configured SSH jail to detect repeated authentication failures.
 Fail2Ban successfully initialized and monitoring auth.log.
 Automatic IP-based blocking enabled.
 
+
+
 Evidence:
 logs/fail2ban_day4.log
+
+## Day 5 – Log Correlation
+
+Created a daily security report script to correlate authentication failures,
+privilege escalation, integrity changes, and Fail2Ban activity.
+
+Evidence:
+logs/day5_security_report.log
+
+
+Adjusted daily report script to read from AIDE check logs
+instead of executing live integrity scans for performance reasons.
+
+
+
+
