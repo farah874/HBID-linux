@@ -66,5 +66,20 @@ Adjusted daily report script to read from AIDE check logs
 instead of executing live integrity scans for performance reasons.
 
 
+## Day 6  crontab 
 
+Created root crontab for automated daily security reporting.
+
+
+
+
+## Day 7 – Incident Simulation & Analysis
+
+Observed sudo usage events using ausearch.
+Detected user creation and deletion via auditd rules.
+SSH configuration access was logged successfully.
+Confirms audit rules are functioning as expected.
+
+
+- stored all the events indide the folder  audit_logs_18_Jan
 
